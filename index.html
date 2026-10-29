@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pragnesh Chauhan | Software Developer Resume</title>
+<style>
+  :root { color-scheme: light; --bg:#f3f6fb; --paper:#fff; --text:#1d2939; --muted:#536174; --accent:#2459a9; --line:#dce4ef; --chip:#eaf1fc; --shadow:0 12px 34px rgba(20,40,80,.10); }
+  body.dark { color-scheme: dark; --bg:#101722; --paper:#182333; --text:#edf3fb; --muted:#b2c0d2; --accent:#8ab4ff; --line:#344357; --chip:#243752; --shadow:0 12px 34px rgba(0,0,0,.25); }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px 16px; background:var(--bg); color:var(--text); font:15px/1.55 Arial, Helvetica, sans-serif; transition:background .2s,color .2s; }
+  .toolbar { max-width:920px; margin:0 auto 16px; display:flex; justify-content:flex-end; gap:10px; flex-wrap:wrap; }
+  button { border:1px solid var(--line); background:var(--paper); color:var(--text); border-radius:9px; padding:10px 14px; cursor:pointer; font-weight:700; }
+  button.primary { background:var(--accent); color:white; border-color:var(--accent); }
+  .resume { max-width:920px; margin:0 auto; background:var(--paper); box-shadow:var(--shadow); border-radius:16px; overflow:hidden; }
+  header { padding:36px 42px 30px; background:linear-gradient(120deg, var(--chip), var(--paper)); border-bottom:1px solid var(--line); }
+  h1 { font-size:34px; line-height:1.15; margin:0 0 7px; letter-spacing:-.7px; }
+  .role { color:var(--accent); font-weight:700; font-size:17px; margin-bottom:14px; }
+  .contact { display:flex; flex-wrap:wrap; gap:8px 18px; color:var(--muted); font-size:13px; }
+  main { padding:30px 42px 40px; }
+  section { margin:0 0 25px; }
+  h2 { margin:0 0 12px; padding-bottom:7px; border-bottom:2px solid var(--line); color:var(--accent); font-size:15px; letter-spacing:1.3px; text-transform:uppercase; }
+  p { margin:0 0 10px; }
+  .muted { color:var(--muted); }
+  .skills { display:flex; flex-wrap:wrap; gap:8px; }
+  .skill { background:var(--chip); color:var(--text); padding:6px 10px; border-radius:7px; font-size:13px; }
+  .job { margin-bottom:18px; }
+  .job-head { display:flex; justify-content:space-between; gap:16px; align-items:baseline; flex-wrap:wrap; }
+  h3 { margin:0; font-size:16px; }
+  .date { color:var(--muted); font-size:13px; }
+  ul { margin:8px 0 0; padding-left:20px; }
+  li { margin:4px 0; }
+  .note { font-size:12px; color:var(--muted); margin-top:18px; }
+  @media(max-width:620px) { body{padding:12px 8px} header,main{padding:24px 20px} h1{font-size:29px} }
+  @media print {
+    body { padding:0; background:#fff; color:#1d2939; }
+    .toolbar,.note { display:none !important; }
+    .resume { max-width:none; box-shadow:none; border-radius:0; }
+    header { background:#eef3fa !important; }
+    body.dark { --paper:#fff; --text:#1d2939; --muted:#536174; --accent:#2459a9; --line:#dce4ef; --chip:#eaf1fc; }
+    * { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar" aria-label="Resume actions">
+  <button id="themeToggle" type="button" aria-pressed="false">🌙 Dark mode</button>
+  <button type="button" onclick="window.print()">Print / Save as PDF</button>
+  <button class="primary" type="button" id="downloadBtn">Download HTML</button>
+</div>
+<article class="resume" id="resume">
+  <header>
+    <h1>Pragnesh Chauhan</h1>
+    <div class="role">Senior Software Developer | Full-Stack Developer</div>
+    <div class="contact">
+      <span>📍 122 Noonan Dr, Brandon, MB, Canada</span>
+      <span>✉️ pragneshc1986@gmail.com</span>
+      <span>☎️ 204 922 4210</span>
+      <span>LinkedIn: <a href="https://www.linkedin.com/in/pragnesh-chauhan-8195a771/?isSelfProfile=true" target="_blank">Click Here!</a></span>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Results-driven Full Stack Developer with 10+ years of hands-on experience in PHP, JavaScript, and modern frameworks including Laravel, React.js, and Vue.js. Skilled in building scalable, high-performance, and responsive web applications with a strong focus on RESTful API integration, database optimization, and code maintainability. Adept at collaborating in agile environments to deliver quality software solutions under tight deadlines..</p>
+    </section>
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span class="skill">PHP</span><span class="skill">Laravel</span><span class="skill">MySQL</span><span class="skill">Redis</span><span class="skill">REST APIs</span><span class="skill">OAuth2/JWT</span><span class="skill">WordPress</span><span class="skill">.NET Core</span><span class="skill">React</span><span class="skill">TypeScript</span><span class="skill">Redux</span><span class="skill">TailwindCSS</span><span class="skill">Material UI</span><span class="skill">Docker</span><span class="skill">GitHub Actions</span><span class="skill">CI/CD</span><span class="skill">Nginx</span><span class="skill">AWS</span><span class="skill">Agile/Scrum</span><span class="skill">PHPUnit</span><span class="skill">Jest</span><span class="skill">Performance Optimization</span>
+      </div>
+    </section>
+    <section>
+      <h2>Core Competencies</h2>
+      <ul>
+        <li>Developing and maintaining scalable web applications and backend services.</li>
+        <li>Designing and integrating RESTful APIs and third-party services.</li>
+        <li>Improving database performance through query analysis and optimization.</li>
+        <li>Writing automated tests, troubleshooting defects, and improving application reliability.</li>
+        <li>Supporting containerized workflows, CI/CD pipelines, and production releases.</li>
+        <li>Collaborating with cross-functional teams using Agile/Scrum practices.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="job">
+        <div class="job-head"><h3>Full-Stack Developer — AwayCare Inc, Amherstburg, ON, Canada</h3><span class="date">[Dec 2021 – May 2026]</span></div>
+        <ul>
+          <li>Led full‑stack development for travel insurance and claims‑processing platforms using Laravel, React, and TypeScript.</li>
+          <li>Built automated policy‑generation workflows, reducing manual processing time by 45%.</li>
+          <li>Designed scalable REST APIs for quoting, underwriting, and claims submission, improving response times by 30%.</li>
+          <li>Migrated legacy PHP modules to Laravel, reducing bug reports by 40%.</li>
+          <li>Developed reusable React component libraries and improved frontend performance through memoization and code‑splitting.</li>
+          <li>Implemented secure data workflows with encryption and role‑based access control.</li>
+          <li>Mentored junior developers and established coding standards to improve team productivity.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>Software Developer — Svaapta IT-Ally Solution, Vadodara, GJ, India</h3><span class="date">[Jun 2018 – Jun 2021]</span></div>
+        <ul>
+          <li>Built enterprise‑grade applications using Laravel, React, and TypeScript for e‑commerce, finance, and logistics clients.</li>
+          <li>Integrated third‑party APIs (Stripe, PayPal, Twilio, Google Maps) with robust error handling.</li>
+          <li>Implemented CI/CD pipelines using GitHub Actions and Docker, reducing deployment time by 50%.</li>
+          <li>Improved frontend performance by refactoring React components and adopting TypeScript.</li>
+          <li>Delivered responsive, accessible interfaces aligned with WCAG standards.</li>
+          <li>Optimized MySQL queries and database structures to enhance system performance.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>Jr. Software Developer — Webmedia Expert, Vadodara, GJ, India</h3><span class="date">[Mar 2014 – May 2018]</span></div>
+        <ul>
+          <li>Built custom CMS platforms, e‑commerce solutions, and web applications using PHP, Laravel, jQuery, and MySQL.</li>
+          <li>Implemented MVC architecture and contributed to early adoption of Laravel.</li>
+          <li>Developed reusable backend modules, reducing development time by 25%.</li>
+          <li>Improved application security through validation layers and role‑based access control.</li>
+          <li>Collaborated with designers and QA teams to deliver stable, pixel‑perfect releases.</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p><strong>Master of Computer Applications</strong> — Gujarat University</p>
+      <p class="muted">Vasad, India · Apr 2011</p>
+      <p><strong>Bechelor of Computer Applications</strong> — SP University</p>
+      <p class="muted">Anand, India · Apr 2008</p>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <p>Travel Insurance Automation Platform: Built a multi-tenant system for policy creation, quote management, claims submission, and compliance tracking. Implemented underwriting rules, automated document generation, and secure customer workflows.</p>
+      <p>E-commerce Platform: Developed a Laravel-based backend with React storefront supporting 50k+ monthly users.</p>
+      <p>Microservices Migration: Transitioned monolithic architecture to microservices using Laravel Lumen and Docker.</p>
+    </section>
+  </main>
+</article>
+<script>
+  const toggle = document.getElementById('themeToggle');
+  toggle.addEventListener('click', () => {
+    const isDark = document.body.classList.toggle('dark');
+    toggle.textContent = isDark ? '☀️ Light mode' : '🌙 Dark mode';
+    toggle.setAttribute('aria-pressed', String(isDark));
+  });
+  document.getElementById('downloadBtn').addEventListener('click', () => {
+    const html = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Pragnesh_Chauhan_Resume.html';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  });
+</script>
+</body>
+</html>
